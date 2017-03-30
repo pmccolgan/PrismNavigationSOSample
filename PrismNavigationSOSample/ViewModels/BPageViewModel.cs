@@ -23,7 +23,7 @@ namespace PrismNavigationSOSample.ViewModels
 		{
 			if (m_navigationService != null)
 			{
-				m_navigationService.NavigateAsync("NavigationPage/LayoutTabbedPage/BPage/B1Page");
+				m_navigationService.NavigateAsync("B1Page", useModalNavigation: false);
 			}
 		}
 	}
